@@ -19,12 +19,12 @@ namespace WorkerService1
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            string crontime = _configuration.GetValue<string>("LoggingInterval");
+            var cronSchedule = CrontabSchedule.Parse(crontime);
             while (!stoppingToken.IsCancellationRequested)
             {
                 _logger.LogInformation("Logging a message at {0}", DateTime.Now);
 
-                string crontime= _configuration.GetValue<string>("LoggingInterval");
-                var cronSchedule = CrontabSchedule.Parse(crontime);
                 var nextRun = cronSchedule.GetNextOccurrence(DateTime.Now);
                 var delay = nextRun - DateTime.Now;
 
