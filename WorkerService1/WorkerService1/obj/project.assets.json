@@ -603,6 +603,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "NCrontab/3.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NCrontab.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NCrontab.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "NLog/5.2.8": {
         "type": "package",
         "compile": {
@@ -1667,6 +1680,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NCrontab/3.3.3": {
+      "sha512": "2yzZXZLI0YpxrNgWnW/4xoo7ErLgWJIwTljRVEJ3hyjc7Kw9eGdjbFZGP1AhBuTUEZQ443PgZifG1yox6Qo1/A==",
+      "type": "package",
+      "path": "ncrontab/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/net35/NCrontab.dll",
+        "lib/net35/NCrontab.pdb",
+        "lib/netstandard1.0/NCrontab.dll",
+        "lib/netstandard1.0/NCrontab.pdb",
+        "lib/netstandard2.0/NCrontab.dll",
+        "lib/netstandard2.0/NCrontab.pdb",
+        "ncrontab.3.3.3.nupkg.sha512",
+        "ncrontab.nuspec"
+      ]
+    },
     "NLog/5.2.8": {
       "sha512": "jAIELkWBs1CXFPp986KSGpDFQZHCFccO+LMbKBTTNm42KifaI1mYzFMFQQfuGmGMTrCx0TFPhDjHDE4cLAZWiQ==",
       "type": "package",
@@ -1935,6 +1966,7 @@
     "net8.0": [
       "Microsoft.Extensions.Hosting >= 8.0.0",
       "Microsoft.Extensions.Hosting.WindowsServices >= 8.0.0",
+      "NCrontab >= 3.3.3",
       "NLog >= 5.2.8",
       "NLog.Extensions.Logging >= 5.3.8"
     ]
@@ -1946,11 +1978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
+      "projectUniqueName": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
       "projectName": "WorkerService1",
-      "projectPath": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
+      "projectPath": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
       "packagesPath": "C:\\Users\\Marko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\obj\\",
+      "outputPath": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1989,6 +2021,10 @@
           "Microsoft.Extensions.Hosting.WindowsServices": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "NCrontab": {
+            "target": "Package",
+            "version": "[3.3.3, )"
           },
           "NLog": {
             "target": "Package",

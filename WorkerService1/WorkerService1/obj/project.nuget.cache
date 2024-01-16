@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CzLMVDTRfDKjJj8DtffINJ3mFtxwm0PXmJ+xnV6xiht5gHd+kJp8pLJB256+DD5I2i1IqFhbcpDmB5vU99TxnQ==",
+  "dgSpecHash": "ObUTc8aeQ/FqK4e+HW6MzdL8bl0HIIervHHgVL79jLjH2iHwaeGtEZB5vRm7AZE58OxxUz6iBwjrAx+IkphwTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
+  "projectFilePath": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marko\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Marko\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\Marko\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Marko\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Marko\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Marko\\.nuget\\packages\\ncrontab\\3.3.3\\ncrontab.3.3.3.nupkg.sha512",
     "C:\\Users\\Marko\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
     "C:\\Users\\Marko\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512",
     "C:\\Users\\Marko\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",

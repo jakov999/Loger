@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj": {}
+    "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj": {
+    "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
+        "projectUniqueName": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
         "projectName": "WorkerService1",
-        "projectPath": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
+        "projectPath": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
         "packagesPath": "C:\\Users\\Marko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marko\\source\\repos\\WorkerService1\\WorkerService1\\obj\\",
+        "outputPath": "C:\\Users\\Marko\\Documents\\GitHub\\Loger\\WorkerService1\\WorkerService1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,6 +50,10 @@
             "Microsoft.Extensions.Hosting.WindowsServices": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NCrontab": {
+              "target": "Package",
+              "version": "[3.3.3, )"
             },
             "NLog": {
               "target": "Package",
